@@ -1,9 +1,6 @@
 export const styles = {
   footer: {
-    backgroundColor: 'primary.800',
-    position: 'absolute',
-    bottom: 0,
-    width: '100%'
+    backgroundColor: 'primary.900'
   },
   container: {
     display: 'flex',
@@ -13,8 +10,7 @@ export const styles = {
     py: { xs: '12px', sm: '26px' }
   },
   links: {
-    display: { xs: 'flex', sm: 'block' },
-    flexDirection: { xs: 'row', sm: 'column' },
+    display: 'flex',
     pb: { xs: 1, sm: 0 },
     '& > *': {
       color: 'primary.50',

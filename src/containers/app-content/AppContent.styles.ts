@@ -1,8 +1,9 @@
 export const styles = {
   content: {
+    backgroundColor: 'backgroundColor',
     display: 'flex',
-    flexDirection: 'column',
     height: '100vh',
+    flexDirection: 'column',
     '.MuiToolbar-root + div': {
       flexGrow: 1,
       mt: {

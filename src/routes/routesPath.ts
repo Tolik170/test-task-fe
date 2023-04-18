@@ -1,7 +1,7 @@
 export const routesPath = {
-  home: { route: '/', nested: '//' },
+  home: { route: '/' },
   navBar: {
-    login: { label: 'Login', route: '/Login' },
-    roadBikes: { label: 'Sign Up', route: '/Sign-up' }
+    login: { label: 'Login', route: '/sign-in' },
+    signUp: { label: 'Sign Up', route: '/sign-up' }
   }
 }

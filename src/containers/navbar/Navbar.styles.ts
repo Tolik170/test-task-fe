@@ -6,10 +6,11 @@ export const styles = {
     margin: { xs: '0', xl: 'auto' },
     maxWidth: 'xl',
     width: { xl: '100%' }
+    
   },
   logoButton: {
     textDecoration: 'none',
-    color: 'basic.white'
+    color: 'primary.800'
   },
   navList: {
     display: 'flex',
@@ -17,8 +18,7 @@ export const styles = {
     alignItems: 'center'
   },
   navItemText: {
-    backgroundColor: 'primary.800',
-    color: 'basic.white',
+    color: 'primary.800',
     textDecoration: 'none'
   }
 }
