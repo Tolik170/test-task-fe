@@ -48,7 +48,7 @@ export const styles = {
   },
   addBtn: {
     minWidth: '142px',
-    maxHeight: '40px',
+    maxHeight: '32px',
     textTransform: 'initial'
   },
   encryptBtn: {

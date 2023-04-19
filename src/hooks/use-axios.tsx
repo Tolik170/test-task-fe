@@ -44,11 +44,11 @@ const useAxios = <T, U>({
         setError(null)
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
       } catch (e: any) {
-        const err = e.response ? e.response : e
+        const err = e.response ? e.response.data : e
         setError(err)
         setAlert({
           severity: snackbarVariants.error,
-          message: err.message || err.statusText
+          message: err.message || 'Error'
         })
       } finally {
         setLoading(false)
